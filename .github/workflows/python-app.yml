@@ -48,6 +48,8 @@ jobs:
         python-version: 3.8
     # - name: Update pip
     #   run: python -m pip install --upgrade pip
+    - name: change pip version
+      run: python -m pip install pip==18.0
     - name: Install Packages
       run: pip install -r requirements.txt
     - name: Build
