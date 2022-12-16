@@ -9,4 +9,4 @@ python-vlc==3.0.11115
 requests==2.25.1
 urllib3==1.26.3
 pyinstaller==5.7.0
-bilibili_api
+bilibili-api
